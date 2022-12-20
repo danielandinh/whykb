@@ -50,7 +50,7 @@ bool encoder_update_kb(uint8_t index, bool clockwise) {
 // OLED_DRIVER_ENABLE = yes
 // WPM_ENABLE = yes
 
-#ifdef OLED_DRIVER_ENABLE
+#ifdef OLED_ENABLE
 // WPM-responsive animation stuff here
 #    define IDLE_FRAMES 5
 #    define IDLE_SPEED 20  // below this wpm value your animation will idle
@@ -149,12 +149,12 @@ static void render_anim(void) {
 }
 
 // Used to draw on to the oled screen
-void oled_task_user(void) {
+bool oled_task_user(void) {
     render_anim();  // renders pixelart
 
     oled_set_cursor(0, 0);                            // sets cursor to (row, column) using charactar spacing (5 rows on 128x32 screen, anything more will overflow back to the top)
     sprintf(wpm_str, "WPM:%03d", get_current_wpm());  // edit the string to change wwhat shows up, edit %03d to change how many digits show up
     oled_write(wpm_str, false);                       // writes wpm on top left corner of string
-
+    return true;
 }
 #endif
