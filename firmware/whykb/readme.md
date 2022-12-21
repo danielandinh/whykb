@@ -1,12 +1,11 @@
 # handwired/whykb
 
-![handwired/whykb](imgur.com image replace me!)
+![handwired/whykb](https://imgur.com/a/OHi5h92)
 
-*A short description of the keyboard/project*
+*Handwired keyboard kinda like a 40% but with arrow cluster, supports OLED Display and Rotary Encoder*
 
-* Keyboard Maintainer: [Daniel D](https://github.com/danielandinh)
-* Hardware Supported: *The PCBs, controllers supported*
-* Hardware Availability: *Links to where you can find this hardware*
+* Keyboard Maintainer: [Daniel Dinh](https://github.com/danielandinh)
+* Hardware Supported: *MUC: [rp2040](https://joshajohnson.com/sea-picro/), OLED: SSD1306*
 
 Make example for this keyboard (after setting up your build environment):
 
