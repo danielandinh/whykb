@@ -5,12 +5,13 @@ It's kind of a weird mix between a 40% and HHKB with an arrow cluster, it also h
 
 ## Handwired Prototype
 
-![handwired/whykb](https://imgur.com/a/OHi5h92)
+![front](https://user-images.githubusercontent.com/108564248/208898033-6bb7d656-bd04-488e-bf8b-d9106bb84435.jpg)
+![back](https://user-images.githubusercontent.com/108564248/208898024-f9b4ae7f-d105-4bff-a0b0-5b952149a2fb.jpg)
 
 keyboard specs:
-GMK Pixel
-Gaterian Milky Yellows L/F
-Cherry plate mount stabs
-Has OLED and Knob
+* GMK Pixel
+* Gateron Milky Yellows L/F
+* Durock plate mount stabs
+* OLED and Knob
 
 ## will update here if i manage to make a pcb
