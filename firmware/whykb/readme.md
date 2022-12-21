@@ -1,6 +1,6 @@
 # handwired/whykb
 
-![handwired/whykb](https://imgur.com/a/OHi5h92)
+![front](https://user-images.githubusercontent.com/108564248/208898033-6bb7d656-bd04-488e-bf8b-d9106bb84435.jpg)
 
 *Handwired keyboard kinda like a 40% but with arrow cluster, supports OLED Display and Rotary Encoder*
 
