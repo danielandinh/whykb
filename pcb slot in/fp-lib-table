@@ -3,4 +3,6 @@
   (lib (name "keebio_parts")(type "KiCad")(uri "${KIPRJMOD}/lib/keebio_parts")(options "")(descr ""))
   (lib (name "keebs")(type "KiCad")(uri "${KIPRJMOD}/lib/keebs.pretty-master")(options "")(descr ""))
   (lib (name "KiCad-SSD1306-0.91-OLED-4pin-128x32")(type "KiCad")(uri "${KIPRJMOD}/lib/KiCad-SSD1306-0.91-OLED-4pin-128x32.pretty-master")(options "")(descr ""))
+  (lib (name "promicro")(type "KiCad")(uri "${KIPRJMOD}/lib/ProMicroKiCad-master/promicro.pretty")(options "")(descr ""))
+  (lib (name "sea-picro")(type "KiCad")(uri "${KIPRJMOD}/lib/sea-picro.pretty")(options "")(descr ""))
 )
