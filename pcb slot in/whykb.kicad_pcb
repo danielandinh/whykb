@@ -66,7 +66,7 @@
       (usegerberextensions true)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
-      (creategerberjobfile true)
+      (creategerberjobfile false)
       (svguseinch false)
       (svgprecision 6)
       (excludeedgelayer true)
@@ -86,7 +86,7 @@
       (plotvalue true)
       (plotinvisibletext false)
       (sketchpadsonfab false)
-      (subtractmaskfromsilk false)
+      (subtractmaskfromsilk true)
       (outputformat 1)
       (mirror false)
       (drillshape 0)
@@ -7123,7 +7123,7 @@
 
   (footprint "LOGO" (layer "B.Cu")
     (tedit 0) (tstamp ec6de68b-9886-44c9-8ba6-6c4de07fe91f)
-    (at 152.4 152.4 180)
+    (at 152.4 152.4)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "B.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
